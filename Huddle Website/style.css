@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+main{
+    background-image: url('./images/bg-hero-desktop.svg');
+    background-color: #ecf9ff;
+    margin-bottom: 120px;
+}
+
+.Header{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderHold{
+    width: 85%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo img{
+    width: 150px;
+}
+
+.NavBtnHold{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navs{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navs a{
+    text-decoration: none;
+    color: #123456;
+    font-weight: 600;
+    transition: all 350ms;
+}
+
+a:hover{
+    color: #ddd;
+    transform: scale(1.5);
+}
+
+.HeaderBtn button{
+    height: 40px;
+    width: 160px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: poppins;
+    color: #123456;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.HeaderBtn button:hover{
+    background-color: #123456;
+    color: #fff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.HeroImage img{
+    width: 600px;
+}
+
+.HeroText{
+    width: 500px;
+}
+
+.HeroText h1{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.HeroText p{
+    margin-bottom: 20px;
+}
+
+.HeroText button{
+    width: 200px;
+    height: 45px;
+    background-color: hotpink;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    transition: all 350ms;
+    cursor: pointer;
+}
+
+.HeroText button:hover{
+    background-color:rgb(255, 15, 135);
+    transform: scale(1.1);
+}
+
+.HeroBody{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.S1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.SubS1{
+    display: flex;
+    height: 400px;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.SubS1Text{
+    width: 500px;
+    
+}
+
+.SubS1Text h2{
+    margin-bottom: 12px;
+}
+
+.SubS1Text p{
+    color: gray;
+}
+
+.SubS1Img img{
+    width: 400px;
+}
+
+.S2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.SubS2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.SubS2Text{
+    width: 500px;
+}
+
+.SubS2Text h2{
+    margin-bottom: 20px;
+}
+
+.SubS2Img img{
+    width: 400px;
+}
+
+.SubS2Text p{
+    color: gray;
+}
+
+.S3{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.SubS3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: rgba(61, 139, 51, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.SubS3Text{
+    width: 500px;
+}
+
+.SubS3Text h2{
+    margin-bottom: 20px;
+}
+
+.SubS3Img img{
+    width: 400px;
+}
+
+.SubS3Text p{
+    color: gray;
+}
+
+.S4{
+    height: 200px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    background-color: white;
+    border-radius: 20px;
+    /* box-shadow: greenyellow; */
+    margin-bottom: 50px;
+    transform: translateY(10rem);
+    /* overflow-y: visible; */
+
+}
+
+.SubS4{
+    box-shadow: greenyellow;
+}
+
+.FooterBtn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    height: 60px;
+    width: 400px;
+    font-family: poppins;
+    font-weight: 700;
+    color: white;
+    background-color: hotpink;
+    outline: none;
+    border: none;
+    border-radius: 300px;
+}
+
+.FooterBtn button:hover{
+    background-color: #123456;
+    color: #fff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.S5{
+    background-color: darkslategray;
+   padding-top: 40px;
+   height: 50vh;
+   width: 100%;
+   /* overflow-y: calc(-100px); */
+   /* transform: translateY(-5rem); */
+    
+}
+
+.FooterHold{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    /* background-color: green; */
+    margin: 30px;
+   
+}
+
+.FooterNavs{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    width: 200px;
+}
+
+.FootImg{
+    display: flex;
+    flex-direction: column;
+    /* width: 100px; */
+}
+
+.FNavs1{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+}
+
+.Fnavs{
+    text-decoration: none;
+    color: white;
+    margin-left: -20px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    /* width: 60px; */
+    font-size: small;
+    margin: 3px;
+}
+
+.Fnavs:hover{
+    color: springgreen;
+}
+
+.FNavs2{
+    display: flex;
+    flex-direction: column;
+    /* word-break: break-all; */
+    /* width: 200px; */
+    /* background-color: brown; */
+    
+}
+
+.FooterIcons{
+    display: flex;
+    flex-direction: column;
+}
+
+.Iconsf{
+    width: 20px;
+    display: flex;
+    margin-left: 40px;
+
+}
+
+.icons{
+    width: 20px;
+    margin: 20px;
+}
+
+.Logo2{
+    height: 100%;
+    width: 200px;
+    margin-bottom: -40px;
+    /* background-color: blue; */
+}
+
+.hh{
+    font-weight: lighter;
+    font-size: small;
+    /* margin-bottom: -10px; */
+    /* text-align: center; */
+}
+
+.pf{
+    margin-top: 20px;
+}
+
+.Copyright{
+    display: flex;
+    margin-top: 50px;
+    align-self: center;
+} 
